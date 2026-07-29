@@ -1,0 +1,13 @@
+{
+  "name": "io-filecoin-node",
+  "private": true,
+  "description": "Filecoin node-side protocol core in portable .cljc — block headers, tipsets, mpool admission, base fee",
+  "scripts": {
+    "test:cljs": "nbb --classpath \"$(clojure -A:cljs -Spath)\" scripts/verify-cljs.cljs",
+    "vectors": "nbb testdata/gen_block_vectors.cljs > test/filecoin/node/block_vectors.cljc"
+  },
+  "comment": "@noble/hashes is not used by this library — nothing here computes SHA-256. It is required at namespace load by io-multiformats' :cljs branch, so the ClojureScript path cannot start without it.",
+  "dependencies": {
+    "@noble/hashes": "^2.0.1"
+  }
+}
