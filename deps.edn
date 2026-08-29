@@ -9,7 +9,7 @@
 ;; curve is not something to write on the way to a header codec.
 {:paths ["src"]
  :deps {io.github.kotoba-lang/io-filecoin
-        {:git/sha "fb130b17e790d2aa1cccb925306af9e36e58db20"}}
+        {:git/sha "5cae99bfd68e28518db28edf8df0eac88336d3ba"}}
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps {io.github.cognitect-labs/test-runner
