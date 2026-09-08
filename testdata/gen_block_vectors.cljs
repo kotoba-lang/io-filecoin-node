@@ -26,7 +26,7 @@
 ;;
 ;;   nbb testdata/gen_block_vectors.cljs > test/filecoin/node/block_vectors.cljc
 (ns gen-block-vectors
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def endpoint "https://api.node.glif.io/rpc/v1")
 
