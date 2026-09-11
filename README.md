@@ -96,7 +96,7 @@ and the premium form by (sender, nonce), and that is a blockstore walk.
 
 ## Verification
 
-The header vectors are **mainnet's**. `testdata/gen_block_vectors.cljs`
+The header vectors are **mainnet's**. `testdata/gen_block_vectors.cljk`
 snapshots a whole tipset — nine blocks from nine miners — with the CID the
 chain gave each header and the tipset key in the order the chain returned it.
 The suite recomputes both from the JSON alone.
