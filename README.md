@@ -121,7 +121,7 @@ nv7, `f4` from nv18 — on both sides.
 Both runtimes run the whole suite. **163 assertions, green on both.**
 
 ```sh
-clojure -M:test                 # JVM
+kbb -M:test                 # JVM
 npm run test:cljs               # nbb
 npm run vectors                 # re-snapshot a tipset (not run in CI)
 ```
