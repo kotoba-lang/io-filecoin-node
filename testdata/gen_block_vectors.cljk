@@ -1,4 +1,4 @@
-#!/usr/bin/env nbb
+#!/usr/bin/env kbb
 ;; Snapshot a real Filecoin mainnet tipset — every block header in it, the CID
 ;; the chain gave each one, and the tipset key in the order the chain put it
 ;; in — into test/filecoin/node/block_vectors.cljk.
@@ -24,7 +24,7 @@
 ;; NOT re-run in CI: the chain moves and a diff would always fail. This is a
 ;; permanent snapshot — mainnet history does not change.
 ;;
-;;   nbb testdata/gen_block_vectors.cljk > test/filecoin/node/block_vectors.cljk
+;;   kbb --backend sci testdata/gen_block_vectors.cljk > test/filecoin/node/block_vectors.cljk
 (ns gen-block-vectors
   (:require [kotoba.lang.text :as str]))
 
