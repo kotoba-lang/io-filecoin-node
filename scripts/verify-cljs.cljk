@@ -8,7 +8,7 @@
 ;; order asserted below come out the same on both or the codec is wrong on
 ;; one of them.
 ;;
-;;   nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljs
+;;   nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljk
 (ns verify-cljs
   (:require [clojure.test :as t]
             [filecoin.node.basefee-test]

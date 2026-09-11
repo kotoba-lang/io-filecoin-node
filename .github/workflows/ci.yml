@@ -38,4 +38,4 @@ jobs:
       # @noble/hashes is not used here; io-multiformats' :cljs branch loads it
       # at require time, so the path will not start without it.
       - run: npm ci
-      - run: nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljs
+      - run: nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljk

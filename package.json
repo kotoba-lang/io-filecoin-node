@@ -3,8 +3,8 @@
   "private": true,
   "description": "Filecoin node-side protocol core in portable .cljc — block headers, tipsets, mpool admission, base fee",
   "scripts": {
-    "test:cljs": "nbb --classpath \"$(clojure -A:cljs -Spath)\" scripts/verify-cljs.cljs",
-    "vectors": "nbb testdata/gen_block_vectors.cljs > test/filecoin/node/block_vectors.cljc"
+    "test:cljs": "nbb --classpath \"$(clojure -A:cljs -Spath)\" scripts/verify-cljs.cljk",
+    "vectors": "nbb testdata/gen_block_vectors.cljk > test/filecoin/node/block_vectors.cljk"
   },
   "dependencies": {}
 }
