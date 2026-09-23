@@ -1,5 +1,5 @@
 (ns filecoin.node.tipset-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [filecoin.node.block-vectors :as v]
             [filecoin.node.rpc :as nrpc]
             [filecoin.node.tipset :as ts]))

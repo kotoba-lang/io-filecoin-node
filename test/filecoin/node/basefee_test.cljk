@@ -1,5 +1,5 @@
 (ns filecoin.node.basefee-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [filecoin.node.basefee :as bf]))
 
 ;; Every table below is transcribed from lotus's own `chain/store/basefee_test.go`.

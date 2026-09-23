@@ -1,6 +1,6 @@
 (ns filecoin.node.block-test
   (:require [cbor.core :as cbor]
-            [clojure.test :refer [deftest is testing]]
+            [kotoba.test :refer [deftest is testing]]
             [filecoin.node.block :as block]
             [filecoin.node.block-vectors :as v]
             [filecoin.node.rpc :as nrpc]))
