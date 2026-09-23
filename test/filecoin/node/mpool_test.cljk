@@ -1,5 +1,5 @@
 (ns filecoin.node.mpool-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [filecoin.address :as addr]
             [filecoin.message :as msg]
             [filecoin.node.actors :as actors]
